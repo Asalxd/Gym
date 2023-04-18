@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="SE">
+<head>
+    <meta charset="UTF-8">
+    <title>TopGym</title>
+<script src="Js/VilkenPt.js"></script>
+<link rel="icon" type="image/x-icon" href="/images/Alogga.png">
+
+<div class="logga">
+  <a href="Gymgenius.html" class="logo"><span>Top</span>Gym</a>
+</div>
+<link rel="stylesheet" href="Css/VilkenPt.css">
+<h1>Vilken tränare passar mig</h1>
+<form onsubmit="return false;">
+  <p>Vilken typ av träning föredrar du?</p><input type="radio" name="q1" value="styrketräning">Styrka<br>
+  <input type="radio" name="q1" value="konditionsträning">Kondition<br>
+  <input type="radio" name="q1" value="Bodybuilding">Bodybuilding<br>
+  <p>Hur ofta tränar du i veckan?</p><input type="radio" name="q2" value="1-2 gånger">1-2 gånger<br>
+  <input type="radio" name="q2" value="3-4 gånger">3-4 gånger<br>
+  <input type="radio" name="q2" value="4-5 gånger">4-5 gånger<br>
+  <p>Vilken är din målsättning med träningen?</p><input type="radio" name="q3" value="bygga muskler">Bygga muskler<br>
+  <input type="radio" name="q3" value="gå ner i vikt">Gå ner i vikt<br>
+  <input type="radio" name="q3" value="förbättra hälsan">Förbättra hälsan<br>
+  <button onclick="calculate()">
+  <div id="result"></div></button>
+</form>

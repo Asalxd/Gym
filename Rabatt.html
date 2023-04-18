@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="Sv">
+<head>
+    <meta charset="UTF-8">
+    <title>TopGym</title>
+    <link rel="icon" type="image/x-icon" href="/images/Alogga.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="Css/Rabatt.css">
+    <header class="header">
+        <div class="logga">
+          <a href="Gymgenius.html" class="logo"><span>Top</span>Gym</a>
+        </div>
+      </header>
+      <form class="form">
+        <span class="title">Prenumerera för rabatt!</span>
+        <p class="description">Vi på TopGym är stolta över att kunna erbjuda en specialkampanj till alla våra nya kunder! Nu kan du ta del av vårt erbjudande genom att helt enkelt prenumerera på vårt nyhetsbrev. Som prenumerant kommer du att få en rabatt på ditt första köp hos oss.</p>
+        <div>
+          <input placeholder="e-postadress" type="email" name="email" id="email-address"> <button type="submit" id="subscribe-button">Prenumerera</button>
+        </div>
+      </form>
+      <p id="message"></p>
+      <script>
+              const subscribeButton = document.getElementById("subscribe-button");
+              const messageElement = document.getElementById("message");
+          
+              subscribeButton.addEventListener("click", function(event) {
+                  event.preventDefault();
+                  messageElement.textContent = "Tack, din rabattkod är TG23";
+                  document.querySelector('.form').insertAdjacentElement('afterend', messageElement);
+              });
+      </script>

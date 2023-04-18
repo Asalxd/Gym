@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="Sv">
+<head>
+  <meta charset="UTF-8">
+  <title>TopGym</title>
+  <link rel="icon" type="image/x-icon" href="/images/Alogga.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+  <link rel="stylesheet" href="Css/GymGenius.css">
+  <script src="GymGenius.js"></script>
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"><span>Top</span>Gym</a>
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <a href="#hem">Hem</a> <a href="#om">Om</a> <a href="#funktioner">Funktioner</a> <a href="#pris">Pris</a> <a href="#Varf%C3%B6r">Varför Pt</a> <a href="#tr%C3%A4nare">Tränare</a> <a href="#blogg">Blogg</a>
+    </nav>
+  </header>
+  <section class="hem" id="hem">
+    <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide" style="background: url(images/FArnold.jpg) no-repeat;">
+          <div class="content">
+            <span>Va stark, Va i form</span>
+            <h3>Gör dig själv starkare än dina ursäkter.</h3><a href="#Varf%C3%B6r" class="btn">Börja nu!</a>
+          </div>
+        </div>
+        <div class="swiper-slide slide" style="background: url(images/FAlex.jpg) no-repeat;">
+          <div class="content">
+            <span>Va stark, va i form</span>
+            <h3>Gör dig själv starkare än dina ursäkter.</h3><a href="#Varf%C3%B6r" class="btn">Börja nu!</a>
+          </div>
+        </div>
+        <div class="swiper-slide slide" style="background: url(images/FMike.png) no-repeat;">
+          <div class="content">
+            <span>Va stark, va i form</span>
+            <h3>Gör dig själv starkare än dina ursäkter.</h3><a href="#Varf%C3%B6r" class="btn">Börja nu!</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <section class="about" id="om">
+    <div class="image"><img src="images/1about-img.jpg" alt="1about-img"></div>
+    <div class="content">
+      <span>Om oss</span>
+      <h3 class="title">Varje dag är en chans att bli bättre</h3>
+      <p>"Varje dag är en chans att bli bättre" är en filosofi som vi på <span>Top</span>Gym tror på när det gäller träning. Genom att träna regelbundet och utmana dig själv kan du uppnå dina fitnessmål och förbättra din hälsa och välbefinnande dag för dag. Vi hjälper dig gärna att nå dina mål genom personlig träning och skräddarsydda träningsprogram.<br>
+      Välkommen till sveriges billigaste pt</p>
+      <div class="box-container">
+        <div class="box">
+          <h3>Kropp och Hjärna</h3>
+          <p>Att träna regelbundet är inte bara bra för kroppen utan också för hjärnan. Fysisk aktivitet ökar blodflödet och produktionen av vissa hormoner som kan förbättra kognitiva förmågor och stärka minnet..</p>
+        </div>
+        <div class="box">
+          <h3>Hälsosamt Liv</h3>
+          <p>Träning är en viktig del av ett hälsosamt liv och kan förbättra både fysisk och mental hälsa. En personlig tränare kan hjälpa dig att nå dina träningsmål på ett säkert och effektivt sätt.</p>
+        </div>
+        <div class="box">
+          <h3>Strategi</h3>
+          <p>En planerad träningsstrategi är viktig för att nå mål och optimera resultat. En personlig tränare kan skräddarsy en strategi efter dina behov och preferenser.</p>
+        </div>
+        <div class="box">
+          <h3>Träning</h3>
+          <p>Träning är avgörande för att uppnå dina hälsomål. En välplanerad träningsrutin med en personlig tränare kan hjälpa dig att maximera resultaten.</p>
+        </div>
+      </div><a href="L%C3%A5dor4.html" class="btn">Kom igång!</a>
+    </div>
+  </section>
+  <section class="features" id="funktioner">
+    <h1 class="heading"><span>Gym Funktioner</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="image"><img src="images/Lexx.png" alt="Lexx"></div>
+        <div class="content">
+          <img src="images/icon-1.png" alt="icon-1">
+          <h3>Bodybuilding</h3>
+          <p>Bygg muskler och stärk din kropp med effektiv bodybuilding-träning</p><a href="L%C3%A5dor1.html" class="btn">Läs mer om bodybuilding</a>
+        </div>
+      </div>
+      <div class="box second">
+        <div class="image"><img src="images/f-img.png" alt="f-img"></div>
+        <div class="content">
+          <img src="images/icon-2.png" alt="icon-2">
+          <h3>Gym för män</h3>
+          <p>Maximera resultaten: Effektiv träning för starkare och hälsosammare män.</p><a href="L%C3%A5dor.html" class="btn" onclick="redirectToGym(event)">Läs mer om gym för män</a> 
+          <script>
+
+
+
+
+                  function redirectToGym(event) {
+          event.preventDefault(); // prevent the link from opening the URL immediately
+          setTimeout(() => {
+          window.location.href = "GymFörMän.html";
+          }, 2700);
+          setTimeout(() => {
+          window.location.href = "Lådor.html";
+          }, 0);
+
+          }
+          </script>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image"><img src="images/1Leanbeefpatty.jpg" alt="1Leanbeefpatty"></div>
+        <div class="content">
+          <img src="images/icon-3.png" alt="icon-3">
+          <h3>Gym för Kvinnor</h3>
+          <p>Stärk kroppen och självförtroendet med målinriktad träning för kvinnor</p><a href="GymF%C3%B6rKvinnor.html" class="btn">Läs mer om gym för kvinnor</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pricing" id="pris">
+    <div class="information">
+      <span>Pris Plan</span>
+      <h3>Överkomplig pris för dig</h3>
+      <p>Maximera din träning utan att spräcka plånboken med våra överkomliga priser.</p>
+      <p>cardio träning</p>
+      <p>Styrke träning</p><br>
+      <br>
+    </div>
+    <div class="plan basic">
+      <h3>Grundläggande plan</h3>
+      <div class="price">
+        249<span>kr</span><span>/mån</span>
+      </div>
+      <div class="list">
+        <p>Personlig träning</p>
+        <p>Cardio träning</p>
+        <p>Styrke träning</p>
+        <p>Diet plan</p>
+        <p>Online Plan</p>
+      </div><a href="GBetala.html" class="btn">Börja nu!</a>
+    </div>
+    <div class="plan">
+      <h3>Premium plan</h3>
+      <div class="price">
+        599<span>kr</span><span>/mån</span>
+      </div>
+      <div class="list">
+        <p>Certifierad Personlig träning</p>
+        <p>Hälsocoachning</p>
+        <p>Tillgång dygnet runt</p>
+        <p>Specialiserad kostrådgivning</p>
+        <p>Övergripande resultat</p>
+      </div><a href="PBetala.html" class="btn">Börja nu!</a>
+    </div>
+  </section>
+  <section class="trainers" id="tränare">
+    <h1 class="heading"><span>Expert Tränare</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/Adnan.png" alt="Adnan">
+        <div class="content">
+          <span>Explosiv Tränare (Ägare)</span>
+          <h3>Adnan "Smurgi" Salkanovic</h3>
+          <div class="share">
+            <a href="https://www.instagram.com/saalkanoviic/?hl=en" class="fab fa-instagram"></a> <a href="https://t.snapchat.com/k9h3dII4" class="fab fa-snapchat"></a> <a href="https://www.youtube.com/channel/UC6SFc8UDZTc6gpMCaCnbBmQ" class="fab fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/Hannes.png" alt="Hannes">
+        <div class="content">
+          <span>Expert "Tränare" (Delägare)</span>
+          <h3>Hannes "Viking" Smedberg</h3>
+          <div class="share">
+            <a href="https://www.instagram.com/smedis_gym/" class="fab fa-instagram"></a> <a href="https://t.snapchat.com/C5Upcf1I" class="fab fa-snapchat"></a> <a href="https://www.youtube.com/@garex8601" class="fab fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/balazs.png" alt="balazs">
+        <div class="content">
+          <span>"Export" Tränare (Del "ägare")</span>
+          <h3>Balazs "Ballebus" Hevesi</h3>
+          <div class="share">
+            <a href="https://www.instagram.com/balazs_hevesi_/" class="fab fa-instagram"></a> <a href="https://t.snapchat.com/Cx5OZ1FQ" class="fab fa-snapchat"></a> <a href="https://www.youtube.com/channel/UCHB9tN7LVpMjtMklusA2oRw" class="fab fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/Herman.png" alt="Herman">
+        <div class="content">
+          <span>"Expert Tränare"</span>
+          <h3>Herman "Beast" Tall</h3>
+          <div class="share">
+            <a href="https://www.instagram.com/herman.tall/" class="fab fa-instagram"></a> <a href="https://t.snapchat.com/MYvzUreA" class="fab fa-snapchat"></a> <a href="#" class="fab fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="varför?" id="Varför">
+    <h1 class="heading"><span>Varför Pt?</span></h1>
+    <div class="container1">
+      <div class="image1"><img src="images/Varf%C3%B6rPT.png" alt="Varf%C3%B6rPT"></div>
+      <div class="text">
+        <p><span>Personlig Träning</span> är ett fantastiskt verktyg för att uppnå dina träningsmål. Med en personlig tränare vid din sida får du tillgång till expertis inom styrke-, konditions-, och rörlighetsträning, samt näringslära. Tillsammans skräddarsyr ni träningsplanen efter dina specifika mål och behov, och du lär dig effektiv och säker träningsteknik med rätt teknik från början.<br>
+        En personlig tränare kan hjälpa dig att övervinna hinder som du tidigare känt dig fast i, och du får individuell uppmärksamhet och feedback på din teknik och dina framsteg. Med hjälp av en PT skapar du motivation och inspiration för en bättre, roligare och mer effektiv träning. Genom att sätta upp tydliga mål och arbeta tillsammans med din PT kan du nå nya nivåer av hälsa och fitness.<br>
+        Utöver träning kan en PT också ge dig råd om kost och näring, och hjälpa dig att optimera din kroppsammansättning för att uppnå maximala träningsresultat. Så om du vill ha ut maximalt resultat av din träning är personlig träning det perfekta valet!<br>
+        Vilken pt passar mig?</p><a href="L%C3%A5da3.html" class="btn">Klicka här!</a>
+      </div>
+    </div>
+  </section>
+  <section class="banner">
+    <span>Följ oss nu!</span>
+    <h3>Få upp till 50% rabatt</h3>
+    <p>Följ oss nu och få upp till 50% rabatt på våra PT- och träningstjänster!</p><a href="Rabatt.html" class="btn">Till rabatt</a>
+  </section>
+  <section class="review">
+    <div class="information">
+      <span>Feedback</span>
+      <h3>Vad våra kunder tycker</h3>
+      <p>Feedback från kunder är avgörande för att förbättra personlig träning och träningserfarenhet.</p>
+    </div>
+    <div class="swiper review-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+          <p>Herman är en inspirerande man och han hjälpte mig mycket med min träning. Han pushar mig till mina gränser och jag fortsätter komma. Dock kommer han sent till våra sessioner vilket han verkligen skulle kunna ändra på!</p>
+          <div class="user">
+            <img src="images/Vidar.png" alt="Vidar">
+            <div class="info">
+              <h3>Vidar Freidwall</h3><span>Furrylover123</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide">
+          <p>Hannes Smedberg, vart fan ska man börja? han kallade mig för "midget import" varje sekund. Ville träna för att må bättre men upplevelsen från hannes gav mig bara smärta, Både psykiskt och fysikt. Nu går jag och tar livet av mig. TACK HANNES</p>
+          <div class="user">
+            <img src="images/Linus.png" alt="Linus">
+            <div class="info">
+              <h3>Linus Moberg</h3><span>Död :(</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide">
+          <p>Denna lilla uppumpade figuren har gett liv till mitt sorgsna liv igen. Hans korthet får mig att tänka på barn vilket gör att jag alltid kan pusha lite extra. Mellan varje set får jag även känna på hans ungerska kött som ger mig extra protein.</p>
+          <div class="user">
+            <img src="images/Victor.png" alt="Victor">
+            <div class="info">
+              <h3>Victor Jonsson</h3><span>Profesionell rasist</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide">
+          <p>Denna Adnan eller hur man stavar invandrarens namn är en abstrakt negern o gjorde inget bättre för mig! Dålig service, inga resultat, inte nöjd! Lurade mig på att köp pwo, proteinpulver och hela köret. Nu har jag inte pengar till hyra. Undvik!</p>
+          <div class="user">
+            <img src="images/tim.png" alt="tim">
+            <div class="info">
+              <h3>Tim</h3><span>Föredetta husägare</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="blogs" id="blogg">
+    <h1 class="heading"><span>Blogg</span></h1>
+    <div class="swiper blogs-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+          <div class="image"><img src="images/Hannes1.png" alt="Hannes1"></div>
+          <div class="content">
+            <div class="link">
+              <a href="#">Av Hannes Smedberg</a> <span>|</span> <a href="#">13 mars, 2023</a>
+            </div>
+            <h3>Fitness handlar inte om att vara bättre än någon annan.</h3>
+            <p>Hälsosam livsstil. Men det är viktigt att komma ihåg att man inte behöver vara lika bra som andra. Att träna med vänner handlar om att stötta varandra och uppmuntra varandra att nå sina egna mål.</p><a href="FitnessHandlarInteOm.html" class="btn">Läs mer</a>
+          </div>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="image"><img src="images/herman1.png" alt="herman1"></div>
+          <div class="content">
+            <div class="link">
+              <a href="">Av Herman Tall</a> <span>|</span> <a href="#">20 mars, 2023</a>
+            </div>
+            <h3>Fitness är ett tillvägagångssätt för att förbättra dig både mentalt och fysiskt</h3>
+            <p>En holistisk inställning till fitness hjälper det fysiska, mentala välbefinnande vilket leder till ett balanserat och tillfredsställande liv med större lycka.</p><a href="F%C3%B6rb%C3%A4ttraMentalt.html" class="btn">Läs mer</a>
+          </div>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="image"><img src="images/1Adnan.png" alt="1Adnan"></div>
+          <div class="content">
+            <div class="link">
+              <a href="#">Av Adnan Salkanovic</a> <span>|</span> <a href="#">20 mars, 2023</a>
+            </div>
+            <h3>Regelbunden motion och en balanserad kost kan minska risken för olika hälsoproblem.</h3>
+            <p>Regelbunden motion och en balanserad kost kan ha stor effekt på hälsan genom att minska risken för sjukdomar och öka livskvaliteten på lång sikt.</p><a href="MotionF%C3%B6rH%C3%A4lsa.html" class="btn">Läs mer</a>
+          </div>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="image"><img src="images/Balazs1.png" alt="Balazs1"></div>
+          <div class="content">
+            <div class="link">
+              <a href="#">Av Balazs Hevesi</a> <span>|</span> <a href="#">19 mars, 2023</a>
+            </div>
+            <h3>Fördelar med att integrera styrketräning i din träningsrutin</h3>
+            <p>Genom att integrera styrketräning i din träningsrutin kan du förbättra din muskelmassa, öka ämnesomsättningen och bygga upp bentätheten för en starkare och friskare kropp.</p><a href="F%C3%B6rb%C3%A4ttraMuskelmassa.html" class="btn">Läs mer</a>
+          </div>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="image"><img src="images/1Alogga.png" alt="1Alogga"></div>
+          <div class="content">
+            <div class="link">
+              <a href="#">Av pt på TopGym</a><span>|</span> <a href="#">21 mars, 2023</a>
+            </div>
+            <h3>TopGym</h3>
+            <p>Dagliga utmaningar och belöningar: Insikter från personalen om högintensivt arbete på TopGym Att arbeta på TopGym är inte för den som söker ett lätt arbete. Här finns dagliga utmaningar som kräver både fysisk och mental styrka.</p><a href="L%C3%A5da2.html" class="btn">Läs mer</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Öppettider</h3>
+        <p>Måndag-Fredag <i>04:00 - 23:00</i></p>
+        <p>Lördag : <i>04:00 - 23:00</i></p>
+        <p>Söndag : <i>Stängt</i></p>
+      </div>
+      <div class="box">
+        <h3>Bemannat</h3>
+        <p>Måndag-Fredag <i>16:30 - 18:30</i></p>
+        <p>Lördag : <i>09:30 - 12:30</i></p>
+        <p>Söndag : <i>Stängt</i></p>
+      </div>
+      
+      <div class="box">
+        <h3>Kontakta</h3>
+        <p>+123-456-7890</p>
+        <p>+123-456-789</p>
+        <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRttNcpbsCGxrZBnLdfhCjdpbQMJBKCLGBBPkVfctcDqfVZNFmBwTKHtCLhKtDWRJMZBDlB" target="_blank">Emad.srvic@gmail.com</a></p>
+        <p><a href="https://www.google.com/maps/place/Hagan%C3%A4sskolan/@56.5522119,14.1544131,17z/data=!3m1!4b1!4m6!3m5!1s0x465134babf2c6269:0xe4d52481a80ec556!8m2!3d56.552209!4d14.156988!16s%2Fg%2F1tdhcmj_">Östra Esplanaden 15, Älmhult</a></p>
+        <div class="share">
+          <a href="https://www.instagram.com/saalkanoviic/?hl=en" class="fab fa-instagram"></a> <a href="https://t.snapchat.com/k9h3dII4" class="fab fa-snapchat"></a> <a href="https://www.youtube.com/channel/UC6SFc8UDZTc6gpMCaCnbBmQ" class="fab fa-youtube"></a>
+        </div>
+      </div>
+      <div class="box">
+        <h3>Citat</h3>
+        <p>𝒟𝓇𝑒𝒶𝓂 𝒷𝒾𝑔𝑔𝑒𝓇. 𝒟𝑜 𝒷𝒾𝑔𝑔𝑒𝓇. <i>Adnan Salkanovic</i></p>
+        <p>𝒟𝑜𝓃'𝓉 𝓈𝓉𝑜𝓅 𝓌𝒽𝑒𝓃 𝓎𝑜𝓊'𝓇𝑒 𝓉𝒾𝓇𝑒𝒹, 𝓈𝓉𝑜𝓅 𝓌𝒽𝑒𝓃 𝓎𝑜𝓊'𝓇𝑒 𝒹𝑜𝓃𝑒. <i>Herman Tall</i></p>
+        <p>𝓢𝓾𝓬𝓬𝓮𝓼𝓼 𝓲𝓼 𝓷𝓸𝓽 𝓯𝓲𝓷𝓪𝓵, 𝓯𝓪𝓲𝓵𝓾𝓻𝓮 𝓲𝓼 𝓷𝓸𝓽 𝓯𝓪𝓽𝓪𝓵: 𝓲𝓽 𝓲𝓼 𝓽𝓱𝓮 𝓬𝓸𝓾𝓻𝓪𝓰𝓮 𝓽𝓸 𝓬𝓸𝓷𝓽𝓲𝓷𝓾𝓮 𝓽𝓱𝓪𝓽 𝓬𝓸𝓾𝓷𝓽𝓼. <i>Balazs Hevesi</i></p>
+        <p>𝓐 𝓵𝓲𝓽𝓽𝓵𝓮 𝓹𝓻𝓸𝓰𝓻𝓮𝓼𝓼 𝓮𝓪𝓬𝓱 𝓭𝓪𝔂 𝓪𝓭𝓭𝓼 𝓾𝓹 𝓽𝓸 𝓫𝓲𝓰 𝓻𝓮𝓼𝓾𝓵𝓽𝓼. <i>Hannes Smedberg</i></p>
+      </div>
+      <div class="box">
+        <h3>Följ oss!</h3>
+        <form action="a">
+          <input type="email" name="a" class="email" placeholder="Skriv din mejl" id="a"> <input type="submit" value="Prenumerera" class="btn">
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+  <script src="js/GymGenius.js"></script>
+</body>
+</html>
